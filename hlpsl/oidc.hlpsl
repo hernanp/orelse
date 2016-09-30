@@ -1,7 +1,7 @@
 %% PROTOCOL: OpenID Connect
 %% PURPOSE: Web Single Sign-On
 %% REFERENCE: http://openid.net/specs/openid-connect-core-1_0.html
-%% MODELERS: Ghada Zamzmi, Hernan Palombo
+%% AUTHOR: Hernan Palombo
 %% LAST UPDATE: Apr 18th, 2014
 %% ROLES: U is user, C is client, A is authorization server
 %% ALICE_BOB:
@@ -18,7 +18,7 @@
 %%
 %% to run: $ avispa oidc_v6.hlpsl
 %%
-%% v7:
+%% v8:
 %%  This version implements the AuthN Flow including RespReq/Resp from TokEndpoint, and ResourceReq/Resp from Resource Server
 %%
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

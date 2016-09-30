@@ -1,4 +1,6 @@
-// objects example
+/* Hernan Palombo */
+/* objects example */
+
 #include <iostream>
 
 using namespace std;

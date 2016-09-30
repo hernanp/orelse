@@ -1,4 +1,6 @@
-// set_difference example
+/* Hernan Palombo */
+/* set_difference example */
+
 #include <iostream>     // std::cout
 #include <algorithm>    // std::set_difference, std::sort
 #include <vector>       // std::vector
