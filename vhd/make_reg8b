@@ -1,0 +1,7 @@
+all:
+	ghdl -a reg8b.vhd tb_reg8b.vhd
+	ghdl -e reg8b_tb
+genwave:
+	./reg8b --vcd=reg8b.vcd
+viewwave:
+	gtkwave reg8b.vcd

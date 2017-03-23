@@ -1,0 +1,5 @@
+all:
+	ghdl -a adder.vhd adder_tb.vhd
+	ghdl -e adder_tb
+simulate:
+	./adder_tb --assert-level=warning --disp-time
